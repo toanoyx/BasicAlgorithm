@@ -1,3 +1,4 @@
+""" 插入排序 """
 
 def insertSort(s):
     for i in range(1, len(s)):
