@@ -1,4 +1,5 @@
 """ 快速排序 """
+
 import random
 
 
