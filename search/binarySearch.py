@@ -2,8 +2,8 @@
 def binarySearch(s, k):
     low = 0
     high = len(s) - 1
-    while low < high:
-        mid = (low + high) // 2
+    while low <= high:
+        mid = low + (high - low) // 2
         if s[mid] == k:
             return mid
         elif s[mid] > k:
