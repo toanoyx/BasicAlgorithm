@@ -1,4 +1,7 @@
 
+""" 快速排序算法实现查找数组中第k大的数 """
+
+
 def findKth(s, k):
     return findKth_c(s, 0, len(s) - 1, k)
 
